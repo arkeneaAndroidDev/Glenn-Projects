@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audioplayerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/audio_background"
+    android:orientation="vertical" >
+
+    <com.arkenea.magicfairground.CustomeTextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dip"
+        android:textColor="@color/whitrtext"
+        android:textSize="18sp" >
+    </com.arkenea.magicfairground.CustomeTextView>
+
+    <LinearLayout
+        android:id="@+id/audiolayoutui1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/btnplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="15dip"
+            android:src="@drawable/pause" />
+
+        <SeekBar
+            android:id="@+id/seekbartrack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:thumbOffset="8dp"
+            android:progressDrawable="@drawable/progress"
+            android:thumb="@drawable/thumb" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5dip" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/volume_high_h"
+                android:visibility="invisible" />
+
+            <com.arkenea.magicfairground.CustomeTextView
+                android:id="@+id/audio_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="00:00"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/audiolayoutui2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/mutebutton_static"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="15dip"
+            android:src="@drawable/volume_low_h" />
+
+        <SeekBar
+            android:id="@+id/seekbarVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:progress="50"
+             android:thumbOffset="8dp"
+            android:progressDrawable="@drawable/progress"
+            android:thumb="@drawable/thumb" />
+
+        <ImageView
+            android:id="@+id/mutebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5dip"
+            android:src="@drawable/volume_high_h" />
+    </LinearLayout>
+
+    <com.arkenea.magicfairground.CustomeTextView
+        android:id="@+id/WakeupAlarmButtom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000"
+        android:paddingTop="15dip"
+        android:text="Set Wake-up Alarm"
+        android:textColor="@color/whitrtext"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <com.arkenea.magicfairground.CustomeTextView
+            android:id="@+id/loop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="15dip"
+            android:text="Loop"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/loop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/switch_yes" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/visualiser" />
+
+</LinearLayout>
