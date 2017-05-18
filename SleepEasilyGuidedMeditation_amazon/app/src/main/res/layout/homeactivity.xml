@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backgroundimage" />
+
+    <LinearLayout
+        android:id="@+id/homeActivity_ll_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+
+
+        android:layout_marginTop="160dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/audio_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/audio_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/audio" />
+
+            <!--
+                 <LinearLayout
+                android:id="@+id/audio_container_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            -->
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/audio_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="@string/audio_single"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+
+            <!--
+            <com.Arkenea.FindUrSoulMate.CustomeTextView
+                    android:id="@+id/audio_txt_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/left_margin"
+                    android:text="@string/audio_single_small"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_small" />
+            </LinearLayout>
+            -->
+        </LinearLayout>
+        
+         <LinearLayout
+            android:id="@+id/fullversion_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/fullversion_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more" />
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/fullversion_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="Get Sleep Easily Full Version"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ebook_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ebook_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ebook" />
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/ebook_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="@string/ebooks_shazzie"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/social_container_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/social_img_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fb" />
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/social_txt_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="@string/social_fb"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/social_container_twitt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/social_img_twitt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twitter_n" />
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/social_txt_twitt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="@string/social_twitt"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/share_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/share" />
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/share_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="@string/share"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/review_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/review_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/review" />
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/review_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="@string/review"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/more_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/more_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more" />
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/more_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="@string/more_app_shazzie"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/help_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/help_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ebook" />
+
+            <com.Arkenea.SleepEasilyMeditatation.CustomeTextView
+                android:id="@+id/help_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:text="@string/help"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
