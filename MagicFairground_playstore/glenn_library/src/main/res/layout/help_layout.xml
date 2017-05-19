@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" 
+        android:layout_marginLeft="@dimen/left_margin">
+
+        <com.android.glenn_library.MyTextView
+            android:id="@+id/help_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Help_discription"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize"/>
+
+        <com.android.glenn_library.MyTextView
+            android:id="@+id/support_email"
+            android:textColor="@color/issue_email_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/support_mail_id"
+            android:textSize="@dimen/textsize"
+            />
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ll_1"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:orientation="vertical" >
+
+        <com.android.glenn_library.MyTextView
+            android:id="@+id/middle_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help_description_middle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize"
+            android:layout_marginBottom="@dimen/bottom_margin"/>
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/help_how_to_use_app_container" 
+           android:layout_marginBottom="@dimen/bottom_margin">
+
+           <ImageView
+               android:id="@+id/help_how_to_use_app_img"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ebook" />
+
+           <com.android.glenn_library.MyTextView
+               android:id="@+id/help_how_to_use_app_txt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/help_how_to_use_app"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="@dimen/left_margin"
+               android:textColor="@color/white"
+               android:textSize="@dimen/textsize"/>
+           
+       </LinearLayout>
+       
+         <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/help_frequesntly_ask_ques_container" 
+           android:layout_marginBottom="@dimen/bottom_margin">
+
+           <ImageView
+               android:id="@+id/help_frequesntly_ask_ques_img"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ebook" />
+
+           <com.android.glenn_library.MyTextView
+               android:id="@+id/help_frequesntly_ask_ques_txt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/help_frequesntly_ask_ques"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="@dimen/left_margin"
+               android:textColor="@color/white"
+               android:textSize="@dimen/textsize"/>
+           
+       </LinearLayout>
+       
+          <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/help_feedback_container" 
+           android:layout_marginBottom="@dimen/bottom_margin"
+           android:visibility="gone">
+
+           <ImageView
+               android:id="@+id/help_feedback_img"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/feedback" />
+
+           <com.android.glenn_library.MyTextView
+               android:id="@+id/help_feedback_txt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/help_feedback"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="@dimen/left_margin"
+               android:textColor="@color/white"
+               android:textSize="@dimen/textsize"/>
+           
+       </LinearLayout>
+       
+    </LinearLayout>
+
+</RelativeLayout>
