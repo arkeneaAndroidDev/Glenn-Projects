@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Self Confidence</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="meditation_txt">Hypnosis Audio Tracks</string>
+
+    <!-- <string name="audio_track_header">"Meditation Audio Tracks"</string> -->
+    <string name="sd_card_dir_name">"/Self Confidence"</string>
+
+    <string-array name="ebook_names">
+        <item>Self-Hypnosis Guide</item>
+        <item>Build Your Self Esteem\n- The 8 Golden Rules</item>
+        <item>About The Author</item>
+        <item>Useful Resources</item>
+    </string-array>
+    <string-array name="ebook_pdf_names">
+        <item>The Ultimate Guide to Self-Hypnosis</item>
+        <item>Build Your Self Esteem - 8 Golden Rules</item>
+        <item>About The Author</item>
+        <item>Useful Resources</item>
+    </string-array>
+    <string-array name="audio_names">
+        <item>Hypnosis Audio Tracks</item>
+        <item>Develop Your \nSelf-Confidence</item>
+        <!-- <item>The Healing White Light</item> -->
+        <item>Confidence In Company</item>
+        <item>12 Minute Sleep Booster</item>
+    </string-array>
+    <string-array name="audio_tracks_name">
+        <item>Hypnosis Audio Tracks</item>
+        <item>Develop_Your_Self_Confidence</item>
+        <!-- <item>The_Healing_White Light</item> -->
+        <item>Confidence_In_Company</item>
+        <item>12_Minute_Sleep_Booster</item>
+    </string-array>
+    <string-array name="audio_tracks_server_urls">
+        <item>Hypnosis Audio Tracks</item>
+        <item>http://arkenea.com/glenapp/SelfConfidence/Develop_Your_Self_Confidence.mp3</item>
+        <!-- <item>http://arkenea.com/glenapp/guidemeditation/2TheHealingWhiteLight.mp3</item> -->
+        <item>http://arkenea.com/glenapp/SelfConfidence/Confidence_In_Company.mp3</item>
+        <item>http://arkenea.com/glenapp/SelfConfidence/12_Minute_Sleep_Booster.mp3</item>
+    </string-array>
+
+    <color name="titletextcolor">#FFFF00</color>
+    <color name="titlebgcolor">#ff0000</color>
+    <color name="whitrtext">#FFFFFFFF</color>
+    <color name="player_bg_color">#5f6df0</color>
+    <color name="email_link_color">#0000FF</color>
+
+</resources>
