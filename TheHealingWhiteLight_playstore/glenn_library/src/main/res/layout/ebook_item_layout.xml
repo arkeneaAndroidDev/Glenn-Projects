@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_marginLeft="@dimen/left_margin"
+     android:id="@+id/ebook_list_item_container"
+     >
+    
+ <ImageView
+               android:id="@+id/ebook_list_item_icon"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ebook" />
+
+           <com.android.glenn_library.MyTextView
+               android:id="@+id/ebook_list_item_txt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="ebook"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="@dimen/left_margin"
+               android:textColor="@color/white"
+               android:textSize="@dimen/textsize"/>
+</LinearLayout>
