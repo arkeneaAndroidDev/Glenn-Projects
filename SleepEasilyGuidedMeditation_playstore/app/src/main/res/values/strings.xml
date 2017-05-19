@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sleep Easily Meditation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="audio_single">Audio Track</string>
+    <string name="audio_single_small">(Audio Running Time 42:50)</string>
+    <string name="meditation_txt">Hypnosis Audio Tracks</string>
+    <string name="ebooks_shazzie">eBooks</string>
+
+    <!-- <string name="audio_track_header">"Meditation Audio Tracks"</string> -->
+    <string name="sd_card_dir_name">"/SleepEasilyFree"</string>
+
+    <string-array name="ebook_names">
+        <item>How To Use This App</item>
+        <item>About Shazzie and Ali</item>
+        <item>Anima Biography and Discography</item>
+    </string-array>
+    <string-array name="ebook_pdf_names">;
+          <item>How_To_Use_This_App</item>
+        <item>About_Shazzie_and_Ali</item>
+        <item>Anima Biography and Discography</item>
+    </string-array>
+
+    <string name="audio_names">Sleep Easily Meditation</string>
+    <string name="audio_tracks_name">SlipEasily</string>
+    <string name="audio_tracks_server_urls">http://arkenea.com/shazzie/SleepEasilyMeditationFree/Sleep_Easily_Meditation_Free.mp3</string>
+    <string name="social_fb">Connect on Facebook</string>
+    <string name="connect_to_shazzie_fb">Connect with Shazzie</string>
+    <string name="connect_to_ali_fb">Connect with Ali</string>
+    <string name="social_twitt">Follow on Twitter</string>
+    <string name="connect_to_shazzie_twitt">Follow Shazzie</string>
+    <string name="connect_to_ali_twitt">Follow Ali</string>
+
+    <string name="more_app_shazzie">More apps by Shazzie</string>
+
+    <color name="titletextcolor">#FFFF00</color>
+    <color name="titlebgcolor">#ff0000</color>
+    <color name="whitrtext">#FFFFFFFF</color>
+    <color name="player_bg_color">#EF9934</color>
+    <color name="email_link_color">#3333FF</color>
+
+    <string name="find_your_soulmate">\'Find Your Soul Mate\' is a high quality inspirational meditation written and read by Shazzie. As an acclaimed author of five books, the creater of several life transformation programs and an international speaker and workshop facilitator her quest is always the same to help you on your journey back to the center of your own heart.</string>
+    <string name="be_wealthy">\'Be Wealthy Now\' is written and read by Shazzie. As an acclaimed author of five books, the creator of severals life transformation programs and an international speaker and workshop facilitator her quest is always the same to help you on your journey back to the centre of your own heart.</string>
+    <string name="love_your_body">\'Love Yourself Love Your Body\' is a beautiful healing guided meditation written and read by Shazzie. As an acclaimed author of five books, the creater of several life transformation programs and an international speaker and workshop facilitator her quest is always the same to help you on yourjourney back to the centre of your own heart. </string>
+    <string name="sleep_easily">\'Sleep Easily\' gently guides you through every step of the way to relax your whole body and mind. This meditation leaves you refreshed, renewed and resonating so much more from your heart and a place of stillness. During this twenty six minute recording you\'ll be gently guided every step of the way to relax your whole body and mind.</string>
+
+</resources>
